@@ -14,7 +14,7 @@
 + fetch GET https://boards.now.sh/board
   + https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API/Using_Fetch
 + Append每一筆留言至網頁
-+ fetch POST https://boards.now.sh/board 表單資料
++ fetch POST https://boards-api.now.sh/board 表單資料
 
 😸後端
 + npm install nodemon -g
