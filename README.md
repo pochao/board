@@ -3,7 +3,6 @@
 + 安裝編輯器 https://code.visualstudio.com
 + 安裝postman https://www.getpostman.com
 
-
 😸前端
 + 架設靜態網頁伺服器
   + npm install http-server -g
@@ -23,7 +22,6 @@
   + 傳送資料到後端
         + fetch POST https://boards-api.now.sh/board 表單資料
 
-
 😸後端
 + npm install nodemon -g
 + 建立server資料夾
@@ -39,7 +37,6 @@
 + 新增 GET /board路由
 + 查詢資料庫 db.find
 
-
 😸上傳網站空間
 + 註冊網站空間 https://zeit.co/now
 + npm install now -g
@@ -47,7 +44,6 @@
   + scripts加入"start": "node app"
 + now
 + now alias
-
 
 😸下一步
 + 增加功能
