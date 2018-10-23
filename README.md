@@ -2,7 +2,6 @@
 + 安裝node https://nodejs.org
 + 安裝編輯器 https://code.visualstudio.com
 + 安裝postman https://www.getpostman.com
-+ 註冊網站空間 https://zeit.co/now
 
 😸前端
 + 建立client資料夾
@@ -33,6 +32,7 @@
 + 查詢資料庫 db.find
 
 😸上傳網站空間
++ 註冊網站空間 https://zeit.co/now
 + npm install now -g
 + now
 + now alias
