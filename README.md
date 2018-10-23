@@ -12,15 +12,15 @@
   + 新增文字、表單、留言板標籤
 + CSS
   + 使用 Skeleton CSS框架排版網頁
-  + http://getskeleton.com/
-  + https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
+    + http://getskeleton.com/
+    + https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
 + Javascript
   + 從後端抓取資料
     + fetch GET https://boards.now.sh/board
-  + https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API/Using_Fetch
-  + 使用createElement動態Append每一筆留言至網頁
+    + https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API/Using_Fetch
+    + 使用createElement動態Append每一筆留言至網頁
   + 傳送資料到後端
-  + fetch POST https://boards-api.now.sh/board 表單資料
+    + fetch POST https://boards-api.now.sh/board 表單資料
 
 😸後端
 + npm install nodemon -g
