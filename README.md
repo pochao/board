@@ -1,20 +1,20 @@
 😸開發環境
--安裝node https://nodejs.org
--安裝編輯器 https://code.visualstudio.com
--安裝postman https://www.getpostman.com
--註冊網站空間 https://zeit.co/now
++ 安裝node https://nodejs.org
++ 安裝編輯器 https://code.visualstudio.com
++ 安裝postman https://www.getpostman.com
++ 註冊網站空間 https://zeit.co/now
 
 😸前端
--建立client資料夾
--新增index.html
--建立網頁內容
--使用 Skeleton CSS框架排版網頁
---http://getskeleton.com/
---https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
--fetch GET https://boards.now.sh/board
---https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API/Using_Fetch
--Append每一筆留言至網頁
--fetch POST https://boards.now.sh/board 表單資料
++ 建立client資料夾
++ 新增index.html
++ 建立網頁內容
++ 使用 Skeleton CSS框架排版網頁
+++ http://getskeleton.com/
+++ https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
++ fetch GET https://boards.now.sh/board
+++ https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API/Using_Fetch
++ Append每一筆留言至網頁
++ fetch POST https://boards.now.sh/board 表單資料
 
 😸後端
 -npm install nodemon -g
