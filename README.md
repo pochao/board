@@ -4,20 +4,26 @@
 + 安裝postman https://www.getpostman.com
 
 😸前端
++ 架設靜態網頁伺服器
+  + npm install http-server -g
 + 建立client資料夾
-+ 新增index.html
-+ 建立網頁內容
-+ 使用 Skeleton CSS框架排版網頁
-  + http://getskeleton.com/
-  + https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
-+ fetch GET https://boards.now.sh/board
-  + https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API/Using_Fetch
-+ Append每一筆留言至網頁
-+ fetch POST https://boards-api.now.sh/board 表單資料
++ HTML
+  + 新增index.html
+  + 新增文字、表單、留言板標籤
++ CSS
+  + 使用 Skeleton CSS框架排版網頁
+        + http://getskeleton.com/
+        + https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css
++ Javascript
+  + 從後端抓取資料
+        + fetch GET https://boards.now.sh/board
+        + https://developer.mozilla.org/zh-TW/docs/Web/API/Fetch_API/Using_Fetch
+        + 使用createElement動態Append每一筆留言至網頁
+  + 傳送資料到後端
+        + fetch POST https://boards-api.now.sh/board 表單資料
 
 😸後端
 + npm install nodemon -g
-+ npm install http-server -g
 + 建立server資料夾
 + npm init -y
 + npm install express
@@ -34,6 +40,8 @@
 😸上傳網站空間
 + 註冊網站空間 https://zeit.co/now
 + npm install now -g
++ 修改package.jason
+  + scripts加入"start": "node app"
 + now
 + now alias
 
