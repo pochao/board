@@ -2,7 +2,8 @@
 + 打開終端機
 + 新增client資料夾
 + Code . 進入vs code編輯器
-+ 啟動 http-server
++ Ctrl+` 打開終端機視窗
++ 在終端機視窗鍵入 http-server啟動網頁伺服器
 + 新增 index.html
 + 使用 html範本
 + 將此行剪下移到 body內
