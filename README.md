@@ -30,7 +30,7 @@
 + npm init -y
 + npm install express
 + 新增app.js
-+ npm install cors
++ 加入中間件 (express.jason()、cors)
 + 新增 POST /board 路由
 + 使用postman傳資料到/board
 + npm install nedb
