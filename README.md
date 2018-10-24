@@ -2,7 +2,7 @@
 
 ## 線上展示
 + 前端  https://boards.now.sh
-+ 後端  https://boards-api.now.sh
++ 後端  https://boards-api.now.sh/board
 
 
 😸開發環境
