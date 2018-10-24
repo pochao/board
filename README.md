@@ -1,10 +1,9 @@
 # 留言板範例
 
 ## 線上展示
-```---html
-https://boards.now.sh
-https://boards-api.now.sh
-```
++ 前端  https://boards.now.sh
++ 後端  https://boards-api.now.sh
+
 
 😸開發環境
 + 安裝node https://nodejs.org
