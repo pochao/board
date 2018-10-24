@@ -20,7 +20,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
   res.json('Hello world');
 });
----
+```
 + 新增 POST /board 路由
 ```javascript
 app.post('/board', (req, res) => {
@@ -62,5 +62,5 @@ app.get('/board', (req, res) => {
       res.json(docs);
     });
 });
----
+```
 
