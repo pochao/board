@@ -1,5 +1,9 @@
 # 留言板範例
 
+## 線上展示
+https://boards.now.sh
+https://boards-api.now.sh
+
 😸開發環境
 + 安裝node https://nodejs.org
 + 安裝編輯器 https://code.visualstudio.com
