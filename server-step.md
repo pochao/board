@@ -15,6 +15,12 @@ var cors = require('cors');
 app.use(cors());
 app.use(express.json());
 ```
++ 新增 GET / 路由，for測試
+```---
+app.get('/', (req, res) => {
+  res.json('Hello world');
+});
+---
 + 新增 POST /board 路由
 ```javascript
 app.post('/board', (req, res) => {
@@ -35,8 +41,26 @@ app.post('/board', (req, res) => {
 	"content": "Hello World!!!!!!"
 }
 ```
-+ npm install nedb
-  + https://www.npmjs.com/package/nedb
-+ 存入資料庫 db.insert
++ 在終端機視窗鍵入 npm install nedb
+  + 參考 https://www.npmjs.com/package/nedb
++ 存入資料庫，在 POST /board路由加入
+```---
+  db.insert(board, (err, doc) => {
+    if (err) throw err;
+    //console.log(doc);
+    res.json('success');
+  });
+```
 + 新增 GET /board路由
-+ 查詢資料庫 db.find
+```---
+app.get('/board', (req, res) => {
+  db.find({})
+    .sort({created:-1})
+    .exec((err, docs) => {
+      if (err) throw err;
+
+      res.json(docs);
+    });
+});
+---
+
