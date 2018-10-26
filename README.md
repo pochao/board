@@ -38,6 +38,7 @@
 + 建立server資料夾
 + npm init -y
 + npm install express
++ npm install cors
 + 新增app.js
 + 加入中間件 (express.jason()、cors)
 + 新增 POST /board 路由
