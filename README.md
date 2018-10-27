@@ -1,5 +1,5 @@
 
-![image](https://github.com/pochao/board/blob/master/fullstack.PNG)
+![image](https://github.com/pochao/board/blob/master/full-stack.PNG)
 
 
 # 留言板範例
