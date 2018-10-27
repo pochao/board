@@ -1,6 +1,6 @@
-![image](https://github.com/pochao/board/blob/master/fullstack.PNG)
 
-![image](https://github.com/pochao/board/blob/master/requeststep.png)
+
+
 
 # 留言板範例
 
